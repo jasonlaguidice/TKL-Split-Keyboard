@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "reversible-kicad-footprints")(type "KiCad")(uri "${KIPRJMOD}/../reversible-kicad/reversible-kicad-footprints")(options "")(descr ""))
+  (lib (name "DjinnFootprints")(type "KiCad")(uri "${KIPRJMOD}/../DjinnFootprints")(options "")(descr ""))
+)
