@@ -1,6 +1,11 @@
+from ocp_vscode import show, show_object, reset_show, set_port, set_defaults, get_defaults
+set_port(3939)
+
 import sys
 import cadquery as cq
 import math
+
+
 
 ##################################################
 # CadQuery doesn't do a full reload, so delete all our loaded modules and reload
@@ -146,7 +151,7 @@ kb = keyboard(
 ##################################################
 # File Export
 
-cq.exporters.dxf.CURVE_TOLERANCE = 1e-7
+cq.exporters.dxf.CURVE_TOLERANCE = 1e-7 # type: ignore
 
 outline=kb.render(
            #locations=True,
